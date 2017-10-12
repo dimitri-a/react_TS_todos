@@ -22,6 +22,7 @@ interface AppProps {
 class App extends React.Component<AppProps, void> {
   render() {
     const { todos, dispatch } = this.props;
+    //debugger
 
     return (
       <div className="todoapp">

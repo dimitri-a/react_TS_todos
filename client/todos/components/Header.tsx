@@ -8,6 +8,7 @@ interface HeaderProps {
 
 class Header extends React.Component<HeaderProps, void> {
   handleSave(text: string) {
+    debugger
     if (text.length !== 0) {
       this.props.addTodo(text);
     }

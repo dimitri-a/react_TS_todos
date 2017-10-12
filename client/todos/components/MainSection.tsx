@@ -60,6 +60,8 @@ class MainSection extends React.Component<MainSectionProps, MainSectionState> {
     const { todos } = this.props;
     const { filter } = this.state;
     const activeCount = todos.length - completedCount;
+    console.log('renderfooter');
+    debugger
 
     if (todos.length) {
       return (
